@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baskerville' sans-serif;
+}
+
+body {
+    color: #dedddd;
+}
+
+.header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.logo {
+    font-size: 25px;
+    text-decoration: none;
+    color: #dedddd;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.navbar a {
+    font-size: 20px;
+    color: #dedddd;
+    text-decoration: none;
+    font-weight: 700;
+    align-items: center;
+    margin: 5px;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: black;
+}
+
+.leftbutton {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    z-index: 100;
+}
+
+.reservation {
+    width: 150px;
+    background: white;
+    display: inline-flex;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.reservation a{
+    text-decoration: none;
+}
+
+.shopping {
+    position: relative;
+    display: inline-flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.shopping a {
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    align-items: center;
+    height: 100vh;
+    padding: 0 10%;
+    background: url(img/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.container {
+    width: 1100px;
+    max-width: 100%;
+    margin: 15 auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    flex: 1 1 21rem;
+    margin-top: 80PX;
+    margin-left: 20PX;
+    padding: 10px 20px;
+}
+
+.card h4 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: indigo;
+}
+
+.card p {
+    color: black;
+}
+
+.card img {
+    width: 350px;
+    height: 300px;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-box a {
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    color: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    font-size: 40px;
+    color: #00abf0;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-box p {
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    color: black;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
